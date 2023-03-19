@@ -1,0 +1,9 @@
+---
+version: '3'
+
+services:
+  autotube:
+    image: ghcr.io
+    restart: always
+    volumes:
+      - ./config/praw.ini:/app/praw.ini
